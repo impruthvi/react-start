@@ -1,5 +1,15 @@
+import './ExpenseItem.css';
 function ExpenseItem() {
-    return <h2>asdasd</h2>;
+    return (
+        <div className="expense-item">
+            <div>13 May 2001</div>
+            <div className="expense-item__description">
+
+                <h2>Car Insurance</h2>
+                <div className="expense-item__price">$200</div>
+            </div>
+        </div>
+    );
 }
 
 export default ExpenseItem;
